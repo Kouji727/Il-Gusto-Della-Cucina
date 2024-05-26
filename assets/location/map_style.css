@@ -1,0 +1,9 @@
+.map{
+    z-index:-5;
+  position: absolute;
+  width: 235px;
+  height: 302px;
+  left: 230px;
+  top: 130px;
+  background: url(map.png);
+}

@@ -1,0 +1,188 @@
+<head>
+    <title>Il Gusto Della Cucina | Socials</title>
+</head>
+<style>
+
+@font-face {
+
+font-family: Gobold;
+src: url(Gobold\ Regular.otf) format('opentype');
+
+}
+
+@font-face {
+
+font-family: BigNoodleTitling;
+src: url(big_noodle_titling.ttf) format('truetype');
+
+}
+
+	body {
+		background-image: url('followBG.png');
+		background-size: 100% 100%;
+		margin: 0;
+		}
+
+	.iconpadding{
+	padding-top: 16px;
+}
+
+.follow{
+    position: fixed;
+    margin-left: 530;
+    margin-top: 270;
+    transition: transform .2s;
+}
+
+.follow:hover{
+    transform: scale(1.1); 
+}
+
+.navigation{
+    position: fixed;
+    width: 60px;
+    height: 100%;
+    background: #b4664b;
+    transition: width 200ms ease;
+    overflow: hidden;
+}
+
+.navigation:hover{
+    width: 250px;
+}
+
+.blalign{
+	vertical-align: middle;
+}
+
+.navigation ul{
+    font-family: Gobold;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 0.8;
+}
+
+.navigation ul li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: 400ms;
+}
+
+.navigation ul li:hover{
+    filter: grayscale(0%) opacity(1);
+    color: #b4664b;
+    background: #112340;
+}
+
+.navigation ul li a{
+    font-weight: bold;
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #ffeee4;
+}
+
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.navigation ul li a .icon:hover{
+    transform: rotate(360deg);
+    transition: 400ms;
+    transition: transform(400ms);
+}
+
+.navigation ul li a .title{
+    position: relative;
+    display: block;
+    padding: 5;
+    height: 60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
+}
+</style>
+
+<body>
+
+	<div class="navigation">
+        <ul>
+            <li>
+				<a href="../../Il Gusto Della Cucina.html">
+					<span class="icon"><img src="../icons/logo.png" class="iconpadding"></span>
+					<span class="title">Home</span>
+				</a>
+            </li>
+<br></br>
+            <li>
+				<a href="../about/about.html">
+					<span class="icon"><img src="../icons/about.png" class="iconpadding"></span>
+					<span class="title">About</span>
+				</a>
+            </li>
+
+            <li>
+                <a href="../menu/menu.html">
+                    <span class="icon"><img src="../icons/menu.png" class="iconpadding"></span>
+                    <span class="title">Menu</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="../offers/offers.html">
+                    <span class="icon"><img src="../icons/offers.png" class="iconpadding"></span>
+                    <span class="title">Offers</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="../promos/promos.html">
+                    <span class="icon"><img src="../icons/promos.png" class="iconpadding"></span>
+                    <span class="title">Promos</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="../location/location.html">
+                    <span class="icon"><img src="../icons/location.png" class="iconpadding"></span>
+                    <span class="title">Location</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="../book/book.html">
+                    <span class="icon"><img src="../icons/book.png" class="iconpadding"></span>
+                    <span class="title">Book A Table</span>
+                </a>
+            </li>
+<br><br>
+            <li>
+                <a href="follow.html">
+                    <span class="icon"><img src="../icons/web.png" class="iconpadding"></span>
+                    <span class="title">Follow Us</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="follow"><img src="icons.png"></div>
+
+</body>

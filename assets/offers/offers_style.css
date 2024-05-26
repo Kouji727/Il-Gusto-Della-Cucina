@@ -1,0 +1,220 @@
+@font-face {
+
+  font-family: Gobold;
+  src: url(Gobold\ Regular.otf) format('opentype');
+
+}
+
+@font-face {
+
+  font-family: BigNoodleTitling;
+  src: url(big_noodle_titling.ttf) format('truetype');
+}
+
+body {
+  background-image: url('Offers_BG.png');
+background-size: 100% 100%;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+position: relative;
+width: 1300px;
+height: 605px;
+margin: 0;
+}
+
+.iconpadding{
+	padding-top: 16px;
+}
+
+.navigation{
+    position: fixed;
+    width: 60px;
+    height: 100%;
+    background: #b4664b;
+    transition: width 200ms ease;
+    overflow: hidden;
+}
+
+.navigation:hover{
+    width: 250px;
+}
+
+.blalign{
+	vertical-align: middle;
+}
+
+.navigation ul{
+    font-family: Gobold;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 1.8;
+}
+
+.navigation ul li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: 400ms;
+}
+
+.navigation ul li:hover{
+  filter: grayscale(0%) opacity(1);
+  color: #b4664b;
+  background: #112340;
+}
+
+.navigation ul li a{
+    font-weight: bold;
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #ffeee4;
+}
+
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    
+}
+
+.navigation ul li a .icon:hover{
+  transform: rotate(360deg);
+  transition: 400ms;
+  transition: transform(400ms);
+}
+
+.navigation ul li a .title{
+    position: relative;
+    display: block;
+    padding: 5;
+    height: 60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
+}
+
+.info{
+  z-index:-5;
+  position: fixed;
+  width: 235px;
+  height: 302px;
+  left: 230px;
+  top: 130px;
+  background: url(Special_Events.png);
+  }
+
+  .info1{
+    position: absolute;
+  width: 235px;
+  height: 302px;
+  left: 572px;
+  top: 130px;
+  background: url(Rooftop_Special_Night.png);
+  
+  }
+  
+  .info2{
+    position: absolute;
+  width: 235px;
+  height: 302px;
+  left: 915px;
+  top: 130px;
+  background: url(Wine_Prime_Testing.png);
+  
+  }
+  .text{
+  font-family: BigNoodleTitling;
+  font-weight: lighter;
+  letter-spacing: 4px;
+  position: absolute;
+  width: 294px;
+  height: 73px;
+  left: 300px;
+  top: 430px;
+  color: #FFFFFF;
+  font-size: 36px;
+  line-height: 42px;
+  
+  }
+  .text1{
+    font-family: BigNoodleTitling;
+    font-weight: lighter;
+    letter-spacing: 4px;
+  position: absolute;
+  width: 294px;
+  height: 73px;
+  left: 635px;
+  top: 430px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  
+  }
+  .text2{
+    font-family: BigNoodleTitling;
+    font-weight: lighter;
+    letter-spacing: 4px;
+  position: absolute;
+  width: 294px;
+  height: 73px;
+  left: 593px;
+  top: 475px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  
+  }
+  .text3{
+    font-family: BigNoodleTitling;
+    font-weight: lighter;
+    letter-spacing: 4px;
+  position: absolute;
+  width: 294px;
+  height: 73px;
+  left: 960px;
+  top: 430px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  
+  }
+  .text4{
+    font-family: BigNoodleTitling;
+  font-weight: lighter;
+  letter-spacing: 4px;
+  position: absolute;
+  width: 294px;
+  height: 73px;
+  left: 990px;
+  top: 475px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  
+  }
+  

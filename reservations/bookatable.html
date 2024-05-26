@@ -1,0 +1,165 @@
+<html>
+  <head>  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>Reservation</title>
+
+        <style>
+        body{
+          margin:0;
+          padding:0;
+          background:url("reservationsbg.png");
+          background-size: cover;
+        }
+      
+        .loginbox{  
+          width: 500px;
+          height: 380px;
+          background: #d9aa90;
+          color: #fff;
+          top:25%;
+          left:50%;
+          position:absolute;
+          box-sizing: border-box;
+          padding: 0px 30px;
+        }
+ 
+        h1{    
+          margin:0;
+          padding: 20px 20px;
+          text-align: center;
+          font-size: 25px;
+          color: #112340;
+        }
+
+        h2{    
+          margin:0;
+          font-size: 30px;
+          margin-left: 790px;
+          margin-top: 100px;
+          color: #fff;
+        }     
+        
+        select{
+          border: none;
+          border-bottom: 1px solid #fff;
+          background-color: white;
+          outline:none;
+          height:35px;
+          width:200px;
+          color:#5b5b5b;
+          font-size:16px;
+          margin-top: 10px;
+          margin-left: 10px;
+        }
+
+        .loginbox input[type="text"]{
+          border: none;
+          border-bottom: 1px solid #fff;
+          background-color: white;
+          outline:none;
+          height:35px;
+          color:#fff;
+          font-size:16px;
+          margin-top: 10px;
+          margin-left: 10px;
+        }
+              
+        .loginbox input[type="select"]{
+          border: none;
+          border-bottom: 1px solid #fff;
+          background-color: white;
+          outline:none;
+          height:35px;
+          color:#fff;
+          font-size:16px;
+          margin-top: 10px;
+        }
+
+        button {
+          border: none;
+          border-bottom: 1px solid #fff;
+          background-color: #112340;
+          outline:none;
+          height:45px;
+          width:180px;
+          color:#fff;
+          font-size:16px;
+          margin-top: 10px;
+          margin-left: 15px;
+        }
+
+      .button1 {border-radius: 12px;}
+
+
+       </style>
+    </head>
+
+  <body>
+    <img class="log">
+
+    <h2>BOOK A TABLE NOW</h2>
+        <div class="loginbox">
+            <img src="header.png" width="450" height="120"">
+
+    <h1>RESERVATION</h1>
+    
+            <form>
+                <div>
+                    <input type="text" id="input-group" placeholder="Full Name">
+                    <input type="text" id="input-group" placeholder="Contact Number">
+                </div>
+    
+                <div>
+                    <select>
+                        <option value="" disabled selected hidden>Select Day</option>
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>        
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>    
+                        <option>Sunday</option>   
+                    </select>
+    
+                    <select>
+                        <option value="" disabled selected hidden>Select Hour</option>
+                        <option>11:30 AM to 3:00 PM</option>
+                        <option>5:00 PM to 9:00 PM</option>
+                        <option>12:00 PM to 9:30 PM</option>           
+                    </select>
+                </div>
+
+                <div>
+                    <input type="text" id="input-group" placeholder="Party Size">
+                    <button class="button button1" data-toggle="modal" data-target="#myModal">Book Table</button>
+                </div>
+            </form>
+        </div>
+
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+      
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Reservation Notification</h4>
+            </div>
+            <div class="modal-body">
+              <p>Reservation Booked! Wait for Confirmation via Call.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+  </body>
+</html>
